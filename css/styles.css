@@ -1,0 +1,46 @@
+/* Quiz page background color - will be the same on all pages */
+.bg-quiz {
+	background-color: #FCFCFC;
+	font-family: 'Lato', sans-serif;
+}
+
+@media(max-width:767px) {
+	.container-fluid {
+	    margin-bottom: 5%;
+	}
+}
+
+/* Header at the top of the page with quiz stats */
+.row.header {
+    margin-top: 5%;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-xs-5.stats, .col-xs-7.stats {
+    text-align: -webkit-center;*/
+}
+
+/* Current question displayed on each quiz page */
+.row.current-question {
+    font-size: 1.7em;
+    padding: 5% 10%;
+}
+
+/* Answer buttons displayed on each quiz page */
+.col-xs-12.answer-button {
+    padding: 2%;
+}
+button {
+    width: 20em;
+    height: 4em;
+}
+
+/* HIDE ALL PAGES */
+#questions {
+	display: none;
+}
+
+#questions.display-page {
+	display: block;
+}
